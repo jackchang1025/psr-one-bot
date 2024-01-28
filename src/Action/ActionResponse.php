@@ -1,6 +1,6 @@
 <?php
 
-namespace Psr\OneBot\Action;
+namespace Weijiajia\OneBot\Action;
 
 class ActionResponse
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Psr\OneBot\Entity;
+namespace Weijiajia\OneBot\Entity;
 
 class Channel
 {

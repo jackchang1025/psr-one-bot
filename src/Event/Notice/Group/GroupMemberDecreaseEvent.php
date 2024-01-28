@@ -1,11 +1,11 @@
 <?php
 
-namespace Psr\OneBot\Event\Notice\Group;
+namespace Weijiajia\OneBot\Event\Notice\Group;
 
-use Psr\OneBot\Contracts\Entity\GroupInterface;
-use Psr\OneBot\Contracts\Event\GroupNoticeEventInterface;
-use Psr\OneBot\Event\Notice\NoticeEvent;
-use Psr\OneBot\Self\SelfInterface;
+use Weijiajia\OneBot\Contracts\Entity\GroupInterface;
+use Weijiajia\OneBot\Contracts\Event\GroupNoticeEventInterface;
+use Weijiajia\OneBot\Event\Notice\NoticeEvent;
+use Weijiajia\OneBot\Self\SelfInterface;
 
 class GroupMemberDecreaseEvent extends NoticeEvent implements GroupNoticeEventInterface
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Psr\OneBot\Contracts\Action;
+namespace Weijiajia\OneBot\Contracts\Action;
 
-use Psr\OneBot\Contracts\Entity\GroupInterface;
+use Weijiajia\OneBot\Contracts\Entity\GroupInterface;
 
 interface GroupMessageActionInterface extends MessageActionInterface
 {

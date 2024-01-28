@@ -1,6 +1,6 @@
 <?php
 
-namespace Psr\OneBot\Contracts\Action;
+namespace Weijiajia\OneBot\Contracts\Action;
 
 interface MetaActionInterface extends ActionInterface
 {

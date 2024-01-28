@@ -1,8 +1,8 @@
 <?php
 
-namespace Psr\OneBot\Event;
+namespace Weijiajia\OneBot\Event;
 
-use Psr\OneBot\Contracts\Event\EventInterface;
+use Weijiajia\OneBot\Contracts\Event\EventInterface;
 
 class Event implements EventInterface
 {

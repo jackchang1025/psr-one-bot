@@ -1,8 +1,8 @@
 <?php
 
-namespace Psr\OneBot\Action;
+namespace Weijiajia\OneBot\Action;
 
-use Psr\OneBot\Self\SelfInterface;
+use Weijiajia\OneBot\Self\SelfInterface;
 
 class DeleteMessageAction extends Action
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Psr\OneBot\Contracts\Entity;
+namespace Weijiajia\OneBot\Contracts\Entity;
 
 interface EntityInterface
 {

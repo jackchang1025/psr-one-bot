@@ -1,11 +1,11 @@
 <?php
 
-namespace Psr\OneBot\Event\Notice\Group;
+namespace Weijiajia\OneBot\Event\Notice\Group;
 
-use Psr\OneBot\Contracts\Entity\GroupInterface;
-use Psr\OneBot\Contracts\Event\GroupNoticeEventInterface;
-use Psr\OneBot\Event\Notice\NoticeEvent;
-use Psr\OneBot\Self\SelfInterface;
+use Weijiajia\OneBot\Contracts\Entity\GroupInterface;
+use Weijiajia\OneBot\Contracts\Event\GroupNoticeEventInterface;
+use Weijiajia\OneBot\Event\Notice\NoticeEvent;
+use Weijiajia\OneBot\Self\SelfInterface;
 
 class GroupMessageDeleteEvent extends NoticeEvent implements GroupNoticeEventInterface
 {
@@ -13,7 +13,7 @@ class GroupMessageDeleteEvent extends NoticeEvent implements GroupNoticeEventInt
     /**
      * @param string $id
      * @param float $time
-     * @param \ Psr\OneBot\Self\SelfInterface $self
+     * @param SelfInterface $self
      * @param GroupInterface $group
      * @param string $operatorId 操作者 ID
      */

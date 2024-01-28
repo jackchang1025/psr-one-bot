@@ -1,8 +1,8 @@
 <?php
 
-namespace Psr\OneBot\Contracts\Event;
+namespace Weijiajia\OneBot\Contracts\Event;
 
-use Psr\OneBot\Contracts\Entity\GroupInterface;
+use Weijiajia\OneBot\Contracts\Entity\GroupInterface;
 
 interface GroupNoticeEventInterface extends NoticeEventInterface
 {

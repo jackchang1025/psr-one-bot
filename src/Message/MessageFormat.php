@@ -1,11 +1,11 @@
 <?php
 
-namespace Psr\OneBot\Message;
+namespace Weijiajia\OneBot\Message;
 
 use App\Service\Adapter\EventBuild;
 use App\Service\Adapter\MessageType;
 use Self;
-use Psr\OneBot\Event\Event;
+use Weijiajia\OneBot\Event\Event;
 
 class MessageFormat
 {

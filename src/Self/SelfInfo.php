@@ -1,6 +1,6 @@
 <?php
 
-namespace Psr\OneBot\Self;
+namespace Weijiajia\OneBot\Self;
 
 class SelfInfo implements SelfInterface
 {

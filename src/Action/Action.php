@@ -1,9 +1,9 @@
 <?php
 
-namespace Psr\OneBot\Action;
+namespace Weijiajia\OneBot\Action;
 
-use Psr\OneBot\Contracts\Action\ActionInterface;
-use Psr\OneBot\Self\SelfInterface;
+use Weijiajia\OneBot\Contracts\Action\ActionInterface;
+use Weijiajia\OneBot\Self\SelfInterface;
 
 class Action implements ActionInterface
 {

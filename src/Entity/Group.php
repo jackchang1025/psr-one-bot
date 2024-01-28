@@ -1,9 +1,9 @@
 <?php
 
-namespace Psr\OneBot\Entity;
+namespace Weijiajia\OneBot\Entity;
 
-use Psr\OneBot\Contracts\Entity\EntityInterface;
-use Psr\OneBot\Contracts\Entity\GroupInterface;
+use Weijiajia\OneBot\Contracts\Entity\EntityInterface;
+use Weijiajia\OneBot\Contracts\Entity\GroupInterface;
 
 class Group implements GroupInterface
 {

@@ -1,14 +1,14 @@
 <?php
 
-namespace  Psr\OneBot\Tests\Unit;
+namespace  Weijiajia\OneBot\Tests\Unit;
 
-use PHPUnit\Framework\TestCase;
-use  Psr\OneBot\Contracts\Entity\GroupInterface;
-use  Psr\OneBot\Entity\Group;
-use  Psr\OneBot\Event\Message\GroupMessageEvent;
-use  Psr\OneBot\Message\Message;
-use  Psr\OneBot\Message\MessageSegment;
-use  Psr\OneBot\Self\SelfInfo;
+use  PHPUnit\Framework\TestCase;
+use  Weijiajia\OneBot\Contracts\Entity\GroupInterface;
+use  Weijiajia\OneBot\Entity\Group;
+use  Weijiajia\OneBot\Event\Message\GroupMessageEvent;
+use  Weijiajia\OneBot\Message\Message;
+use  Weijiajia\OneBot\Message\MessageSegment;
+use  Weijiajia\OneBot\Self\SelfInfo;
 
 class TestGroupMessageEvent extends TestCase
 {

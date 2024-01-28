@@ -1,12 +1,12 @@
 <?php
 
-namespace Psr\OneBot\Event\Message;
+namespace Weijiajia\OneBot\Event\Message;
 
-use Psr\OneBot\Contracts\Entity\EntityInterface;
-use Psr\OneBot\Contracts\Event\MessageEventInterface;
-use Psr\OneBot\Contracts\Message\MessageInterface;
-use Psr\OneBot\Event\Event;
-use Psr\OneBot\Self\SelfInterface;
+use Weijiajia\OneBot\Contracts\Entity\EntityInterface;
+use Weijiajia\OneBot\Contracts\Event\MessageEventInterface;
+use Weijiajia\OneBot\Contracts\Message\MessageInterface;
+use Weijiajia\OneBot\Event\Event;
+use Weijiajia\OneBot\Self\SelfInterface;
 
 class MessageEvent extends Event implements MessageEventInterface
 {
@@ -17,7 +17,7 @@ class MessageEvent extends Event implements MessageEventInterface
      * @param float $time 事件发生的Unix时间戳
      * @param string $detailType 事件的详细类型
      * @param string $subType 事件的子类型
-     * @param \ Psr\OneBot\Self\SelfInterface $self 机器人自身的信息
+     * @param SelfInterface $self 机器人自身的信息
      * @param MessageInterface $message 消息内容
      */
     public function __construct(

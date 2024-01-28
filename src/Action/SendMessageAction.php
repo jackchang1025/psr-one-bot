@@ -1,15 +1,15 @@
 <?php
 
-namespace Psr\OneBot\Action;
+namespace Weijiajia\OneBot\Action;
 
 use InvalidArgumentException;
-use Psr\OneBot\Contracts\Entity\ChannelInterface;
-use Psr\OneBot\Contracts\Entity\EntityInterface;
-use Psr\OneBot\Contracts\Entity\FriendInterface;
-use Psr\OneBot\Contracts\Entity\GroupInterface;
-use Psr\OneBot\Contracts\Message\MessageInterface;
-use Psr\OneBot\Message\Message;
-use Psr\OneBot\Self\SelfInterface;
+use Weijiajia\OneBot\Contracts\Entity\ChannelInterface;
+use Weijiajia\OneBot\Contracts\Entity\EntityInterface;
+use Weijiajia\OneBot\Contracts\Entity\FriendInterface;
+use Weijiajia\OneBot\Contracts\Entity\GroupInterface;
+use Weijiajia\OneBot\Contracts\Message\MessageInterface;
+use Weijiajia\OneBot\Message\Message;
+use Weijiajia\OneBot\Self\SelfInterface;
 
 class SendMessageAction extends Action
 {
@@ -18,7 +18,7 @@ class SendMessageAction extends Action
      *
      * @param EntityInterface $entity 接收消息的实体（好友、群组或频道）
      * @param Message $message 要发送的消息对象
-     * @param \ Psr\OneBot\Self\SelfInterface $self 机器人自身标识
+     * @param SelfInterface $self 机器人自身标识
      * @param string|null $echo 可用于标识动作请求的 echo 字段
      */
     public function __construct(

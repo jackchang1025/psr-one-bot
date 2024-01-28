@@ -1,11 +1,11 @@
 <?php
 
-namespace Psr\OneBot\Event\Notice;
+namespace Weijiajia\OneBot\Event\Notice;
 
-use Psr\OneBot\Contracts\Entity\EntityInterface;
-use Psr\OneBot\Contracts\Event\NoticeEventInterface;
-use Psr\OneBot\Event\Event;
-use Psr\OneBot\Self\SelfInterface;
+use Weijiajia\OneBot\Contracts\Entity\EntityInterface;
+use Weijiajia\OneBot\Contracts\Event\NoticeEventInterface;
+use Weijiajia\OneBot\Event\Event;
+use Weijiajia\OneBot\Self\SelfInterface;
 
 class NoticeEvent extends Event implements NoticeEventInterface
 {

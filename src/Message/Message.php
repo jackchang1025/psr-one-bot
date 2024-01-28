@@ -1,9 +1,9 @@
 <?php
 
-namespace Psr\OneBot\Message;
+namespace Weijiajia\OneBot\Message;
 
 use Doctrine\Common\Collections\ArrayCollection;
-use Psr\OneBot\Contracts\Message\MessageInterface;
+use Weijiajia\OneBot\Contracts\Message\MessageInterface;
 
 class Message implements \JsonSerializable, \IteratorAggregate,MessageInterface
 {

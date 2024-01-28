@@ -1,10 +1,10 @@
 <?php
 
-namespace Psr\OneBot\Event\Message;
+namespace Weijiajia\OneBot\Event\Message;
 
-use Psr\OneBot\Contracts\Entity\FriendInterface;
-use Psr\OneBot\Contracts\Message\MessageInterface;
-use Psr\OneBot\Self\SelfInterface;
+use Weijiajia\OneBot\Contracts\Entity\FriendInterface;
+use Weijiajia\OneBot\Contracts\Message\MessageInterface;
+use Weijiajia\OneBot\Self\SelfInterface;
 
 class PrivateMessageEvent extends MessageEvent
 {
@@ -20,10 +20,10 @@ class PrivateMessageEvent extends MessageEvent
             id: $id,
             time: $time,
             detailType: 'private',
-            subType: $subType,
             self: $self,
             entity: $friend,
-            message: $message
+            message: $message,
+            subType: $subType
         );
     }
 }

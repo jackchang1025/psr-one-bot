@@ -1,8 +1,8 @@
 <?php
 
-namespace Psr\OneBot\Contracts\Event;
+namespace Weijiajia\OneBot\Contracts\Event;
 
-use Psr\OneBot\Event\Event;
+use Weijiajia\OneBot\Event\Event;
 
 interface MetaEventInterface extends EventInterface
 {

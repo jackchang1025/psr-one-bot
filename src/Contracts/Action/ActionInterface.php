@@ -1,8 +1,8 @@
 <?php
 
-namespace Psr\OneBot\Contracts\Action;
+namespace Weijiajia\OneBot\Contracts\Action;
 
-use Psr\OneBot\Self\SelfInterface;
+use Weijiajia\OneBot\Self\SelfInterface;
 
 interface ActionInterface
 {

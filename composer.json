@@ -1,14 +1,14 @@
 {
-    "name": "wei/one-bot",
+    "name": "weijiajia/one-bot",
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Psr\\OneBot\\": "src/"
+            "Weijiajia\\OneBot\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Psr\\OneBot\\Tests\\": "tests/"
+            "Weijiajia\\OneBot\\Tests\\": "tests/"
         }
     },
     "authors": [

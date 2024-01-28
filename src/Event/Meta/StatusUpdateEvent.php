@@ -1,6 +1,6 @@
 <?php
 
-namespace Psr\OneBot\Event\Meta;
+namespace Weijiajia\OneBot\Event\Meta;
 
 class StatusUpdateEvent extends MetaEvent
 {

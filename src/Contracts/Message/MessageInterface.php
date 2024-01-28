@@ -1,6 +1,6 @@
 <?php
 
-namespace Psr\OneBot\Contracts\Message;
+namespace Weijiajia\OneBot\Contracts\Message;
 
 interface MessageInterface
 {

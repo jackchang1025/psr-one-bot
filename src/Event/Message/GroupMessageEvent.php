@@ -1,10 +1,10 @@
 <?php
 
-namespace Psr\OneBot\Event\Message;
+namespace Weijiajia\OneBot\Event\Message;
 
-use Psr\OneBot\Contracts\Entity\GroupInterface;
-use Psr\OneBot\Contracts\Message\MessageInterface;
-use Psr\OneBot\Self\SelfInterface;
+use Weijiajia\OneBot\Contracts\Entity\GroupInterface;
+use Weijiajia\OneBot\Contracts\Message\MessageInterface;
+use Weijiajia\OneBot\Self\SelfInterface;
 
 class GroupMessageEvent extends MessageEvent
 {

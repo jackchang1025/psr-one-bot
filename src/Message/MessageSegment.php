@@ -1,6 +1,6 @@
 <?php
 
-namespace Psr\OneBot\Message;
+namespace Weijiajia\OneBot\Message;
 
 class MessageSegment
 {

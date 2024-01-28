@@ -1,10 +1,10 @@
 <?php
 
-namespace Psr\OneBot\Contracts\Event;
+namespace Weijiajia\OneBot\Contracts\Event;
 
-use Psr\OneBot\Contracts\Entity\EntityInterface;
-use Psr\OneBot\Contracts\Message\MessageInterface;
-use Psr\OneBot\Self\SelfInterface;
+use Weijiajia\OneBot\Contracts\Entity\EntityInterface;
+use Weijiajia\OneBot\Contracts\Message\MessageInterface;
+use Weijiajia\OneBot\Self\SelfInterface;
 
 interface MessageEventInterface extends EventInterface
 {
