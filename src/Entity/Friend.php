@@ -1,0 +1,11 @@
+<?php
+
+namespace Psr\OneBot\Entity;
+
+class Friend
+{
+
+    public function __construct(public string $userId,public string $detailType = 'private')
+    {
+    }
+}

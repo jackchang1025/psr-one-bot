@@ -1,0 +1,21 @@
+{
+    "name": "psr/one-bot",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Psr\\OneBot\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Psr\\OneBot\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "微加加的朋友",
+            "email": "shadowmatthew1025@gmail.com"
+        }
+    ],
+    "require": {}
+}
