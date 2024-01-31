@@ -7,7 +7,7 @@ use Weijiajia\OneBot\Self\SelfInterface;
 
 class Action implements ActionInterface
 {
-    public function __construct(protected string $action,protected SelfInterface $self,protected array $params,protected ?string $echo = null) {
+    public function __construct(protected string $action,protected SelfInterface $self,protected array $params = [],protected ?string $echo = null) {
 
     }
 

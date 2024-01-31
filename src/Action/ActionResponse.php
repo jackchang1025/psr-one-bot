@@ -2,7 +2,9 @@
 
 namespace Weijiajia\OneBot\Action;
 
-class ActionResponse
+use Weijiajia\OneBot\Contracts\Action\ActionResponseInterface;
+
+class ActionResponse implements ActionResponseInterface
 {
 
     public function __construct(protected string $status, protected int $retcode, protected array $data = [], protected string $message = '', protected ?string $echo = null) {
